@@ -69,7 +69,16 @@ inquirer
         console.log(answers);
         const filename = `${answers.gitHubUser.toLowerCase().split(' ').join('')}}_${answers.projectTitle.toLowerCase().split(' ').join('-')}.md`;
         console.log(filename);
-    );
-}
 
-)
+        var ReadMe = ``;
+
+        fs.writeFile(filename, generateReadMe(answers), (err) =>
+            err ? console.log(err) : console.log('Success!')
+        );
+    );
+
+    function generateReadMe(answers)
+    {
+        var readMe = ``;
+        return readMe
+    }
