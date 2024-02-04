@@ -75,10 +75,11 @@ inquirer
         fs.writeFile(filename, generateReadMe(answers), (err) =>
             err ? console.log(err) : console.log('Success!')
         );
+    }
     );
 
-    function generateReadMe(answers)
-    {
-        var readMe = ``;
-        return readMe
-    }
+
+function generateReadMe(answers) {
+    var readMe = ``;
+    return readMe;
+}
