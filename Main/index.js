@@ -1,6 +1,8 @@
+//include required libraries
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+//promt the user for inputs
 inquirer
     .prompt([
         {
@@ -63,18 +65,20 @@ inquirer
 
     ]
     )
-    .then((answers) => {
+    .then((answers) => { //after user has answered allk questions, generate the readme file.
         const fileName = 'README.md';
-        console.log(`Generating ${fileName}......`);
+        console.log(`Generating ${fileName}......`); //let the user know that their readme is being generated
         
-        var ReadMeContent = generateReadMe(answers);
+        var ReadMeContent = generateReadMe(answers); //generate the markdown code from the users answers
 
-        fs.writeFile(fileName, ReadMeContent, (err) =>
-            err ? console.log(err) : console.log('Success!')
+        //write markdown to file.
+        fs.writeFile(fileName, ReadMeContent, (err) => 
+            err ? console.log(err) : console.log('Success!') //if error log it, otherwise let the user know its was successfull
         );
     }
     );
 
+//Convert user answers to readme file in markdown format
 const generateReadMe = ({projectTitle,description,installation,usage,contribution,testing,license,gitHubUser,email}) => 
 `# ${projectTitle}
 
@@ -88,8 +92,11 @@ ${description}
     
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
+- [Contribute](#How-to-Contribute)
+- [Testing](#Testing)
+- [Questions](#Questions)
+
 
 ## Installation
 
@@ -104,11 +111,11 @@ ${usage}
 ## License
 This project is licensed under the ${license}.
     
-## How to Contribute
+## How-to-Contribute
     
 ${contribution}
 
-## Tests
+## Testing
 run the following command, inorder test the project:
    
     ${testing}
