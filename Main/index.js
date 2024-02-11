@@ -79,55 +79,44 @@ inquirer
 const generateReadMe = ({projectTitle,description,installation,usage,contribution,testing,licence,gitHubUser,email}) => 
 `# ${projectTitle}
 
+![GitHub licence](http://img.sheild.io/badge/license-${licence}-blue.svg)
+
 ## Description
     
     ${description}
     
-## Table of Contents (Optional)
+## Table of Contents
     
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
-    
+    - [Installation](/README.md#installation)
+    - [Usage](/README.md#usage)
+    - [Credits](/README.md#credits)
+    - [License](/README.md#license)
+
 ## Installation
+
+to install the necessary dependancies please run the following command before use.
     
-    ${installation}
-    
+```    
+${installation}
+```
 ## Usage
     
     ${usage}
-    
-## Credits
-    
-    List your collaborators, if any, with links to their GitHub profiles.
-    
-    If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-    
-    If you followed tutorials, include links to those here as well.
-    
+
 ## License
-    
-    ${licence}
-    ---
-    
-    🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-    
-## Badges
-    
-    ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-    
-    Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+This project is licenced under the ${licence}.
     
 ## How to Contribute
     
     ${contribution}
 
 ## Tests
-    
+to run tests on the program, run the follwing command:
+    ```
     ${testing}
+    ```
     
-If you have any questions please contact me at ${email}, you can veiw my other work on git hub ${gitHubUser}`;
+If you have any questions about the repo, open an issue or contact me directly at${email}. You can veiw my other work on git hub ${gitHubUser}`;
 
 
 
