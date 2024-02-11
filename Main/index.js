@@ -32,7 +32,7 @@ inquirer
             type: 'list',
             name: 'licence',
             message: 'Which of the following licences would you like to use for your project?',
-            choices: ['MIT', 'Apache-2.0', 'GPL 2.0', 'BSD 3', 'None']
+            choices: ['MIT', 'Apache_2.0', 'GPL_2.0', 'BSD_3', 'None']
         },
         {
             //=installation instructions, 
