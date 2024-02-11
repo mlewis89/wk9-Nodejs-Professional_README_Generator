@@ -130,9 +130,10 @@ dist
 .pnp.*
 
 #node modules
-node_modules/
-Main/node_modules/
+./node_modules/
 
 #mac cache
 .DS_Store/
 
+#output readme
+Main/README.md
