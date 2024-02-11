@@ -1,9 +1,8 @@
-const generateReadMe = ({projectTitle,description,installation,usage,contribution,testing,licence,gitHubUser,email}) => 
-`# ${projectTitle}
+# dasfhadgfh
 
 ## Description
     
-    ${description}
+    sfgjsfgjh
     
 ## Table of Contents (Optional)
     
@@ -14,11 +13,11 @@ const generateReadMe = ({projectTitle,description,installation,usage,contributio
     
 ## Installation
     
-    ${installation}
+    sfgjsfgj
     
 ## Usage
     
-    ${usage}
+    sfgjsfgjh
     
 ## Credits
     
@@ -30,7 +29,7 @@ const generateReadMe = ({projectTitle,description,installation,usage,contributio
     
 ## License
     
-    ${licence}
+    Apache-2.0
     ---
     
     🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
@@ -43,10 +42,10 @@ const generateReadMe = ({projectTitle,description,installation,usage,contributio
     
 ## How to Contribute
     
-    ${contribution}
+    sfjgsfghj
 
 ## Tests
     
-    ${testing}
+    sfgjfgj
     
-If you have any questions please contact me at ${email}, you can veiw my other work on git hub ${gitHubUser}`;
+If you have any questions please contact me at adsfhadfh, you can veiw my other work on git hub SDG
