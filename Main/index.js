@@ -83,40 +83,39 @@ const generateReadMe = ({projectTitle,description,installation,usage,contributio
 
 ## Description
     
-    ${description}
+${description}
     
 ## Table of Contents
     
-    - [Installation](/README.md#installation)
-    - [Usage](/README.md#usage)
-    - [Credits](/README.md#credits)
-    - [License](/README.md#license)
+[Installation](/README.md#installation)
+[Usage](/README.md#usage)
+[Credits](/README.md#credits)
+[License](/README.md#license)
 
 ## Installation
 
-to install the necessary dependancies please run the following command before use.
-    
-```    
-${installation}
-```
+Please run the following command to install the necessary dependancies.
+       
+    ${installation}
+
 ## Usage
     
-    ${usage}
+${usage}
 
 ## License
 This project is licenced under the ${licence}.
     
 ## How to Contribute
     
-    ${contribution}
+${contribution}
 
 ## Tests
-to run tests on the program, run the follwing command:
-    ```
+run the following command, inorder test the project:
+   
     ${testing}
-    ```
-    
-If you have any questions about the repo, open an issue or contact me directly at${email}. You can veiw my other work on git hub ${gitHubUser}`;
+   
+## Questions 
+If you have any questions about the repo, open an issue or contact me directly at <${email}>. You can veiw my other work on git hub [${gitHubUser}](https://github.com/${gitHubUser}/)`;
 
 
 
