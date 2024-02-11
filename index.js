@@ -64,13 +64,14 @@ inquirer
     ]
     )
     .then((answers) => {
-        console.log(`Generating .//ReadMe.md`);
-        const filename = `${answers.gitHubUser.toLowerCase().split(' ').join('')}}_${answers.projectTitle.toLowerCase().split(' ').join('-')}.md`;
-        console.log(filename);
-
+        const folderName = ${answers.gitHubUser.toLowerCase().split(' ').join('')}}_${answers.projectTitle.toLowerCase().split(' ').join('-')};
+        const fileName = 'README.md';
+        const filePath = `${./${folderName}/${fileName}}`;
+        console.log(`Generating ${filePath}......`);
+        
         var ReadMeContent = generateReadMe(answers);
 
-        fs.writeFile(filename, ReadMeContent, (err) =>
+        fs.writeFile(filePath, ReadMeContent, (err) =>
             err ? console.log(err) : console.log('Success!')
         );
     }
