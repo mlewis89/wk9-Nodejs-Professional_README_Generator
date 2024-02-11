@@ -14,14 +14,14 @@ During this project i learnt how to the inquirer package while also improving my
 
 ## Table of Contents
     
-- [User Story](<#User Story>)
-- [Acceptance Criteria](<#Acceptance Criteria>)
+- [User Story](#User-Story)
+- [Acceptance Criteria](#Acceptance%201%20Criteria)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](<#Screen Shots of Completed Challenge>)
+- [Screenshots](<#Screenshots%201%20of%201%20Completed%201%20Challenge>)
 - [License](#license)
 - [Credits](#credits)
-- [Questions / How to Contribute](<#Questions / How to Contribute>)
+- [Questions / How to Contribute](#Questions-/-How-to-Contribute)
 
 ## User Story
 
@@ -67,7 +67,7 @@ Open the terminal in the Main Folder and enter the following command and answer 
 GitHub repository
 https://github.com/mlewis89/wk9-Nodejs-Professional_README_Generator/
 
-## Screen Shots of Completed Challenge
+## Screenshots of Completed Challenge
 
 ![completed application](./Assets/screenshots/Screenshot%202024-01-17%20111203.png)
 ![completed application](./Assets/screenshots/Screenshot%202024-01-17%20111317.png)
