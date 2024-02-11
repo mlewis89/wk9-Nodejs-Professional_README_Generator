@@ -87,10 +87,10 @@ ${description}
     
 ## Table of Contents
     
-[Installation](/README.md#installation)
-[Usage](/README.md#usage)
-[Credits](/README.md#credits)
-[License](/README.md#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
 ## Installation
 
