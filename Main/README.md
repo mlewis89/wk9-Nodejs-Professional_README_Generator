@@ -1,10 +1,10 @@
-# ReadMe generator
+# readme generator
 
-![GitHub licence](http://img.sheild.io/badge/license-MIT-blue.svg)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
     
-making use of node.js the program prompt the user usew from the terminal     to create   a readme file
+the program prompt the user with a series of questions and then generates a readme file
     
 ## Table of Contents
     
@@ -17,18 +17,18 @@ making use of node.js the program prompt the user usew from the terminal     to 
 
 Please run the following command to install the necessary dependancies.
        
-    npm install -y
+    npm install inquirer
 
 ## Usage
     
-go to the terminal and enter the ```node index.js``` command and follow the prompts
+open the terminal in the Main Folder and enter the ```node index.js``` command and answer the prompts
 
 ## License
-This project is licenced under the MIT.
+This project is licensed under the MIT.
     
 ## How to Contribute
     
-see the questions section below
+open an issue in the repo
 
 ## Tests
 run the following command, inorder test the project:

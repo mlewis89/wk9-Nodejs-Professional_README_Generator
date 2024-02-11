@@ -30,9 +30,9 @@ inquirer
         {
             //license, 
             type: 'list',
-            name: 'licence',
-            message: 'Which of the following licences would you like to use for your project?',
-            choices: ['MIT', 'Apache_2.0', 'GPL_2.0', 'BSD_3', 'None']
+            name: 'license',
+            message: 'Which of the following licenses would you like to use for your project?',
+            choices: ['MIT', 'Apache-2.0', 'GPL-2.0', 'BSD-3-clause', 'None']
         },
         {
             //=installation instructions, 
@@ -75,11 +75,10 @@ inquirer
     }
     );
 
-
-const generateReadMe = ({projectTitle,description,installation,usage,contribution,testing,licence,gitHubUser,email}) => 
+const generateReadMe = ({projectTitle,description,installation,usage,contribution,testing,license,gitHubUser,email}) => 
 `# ${projectTitle}
 
-![GitHub licence](http://img.sheild.io/badge/license-${licence}-blue.svg)
+[![License](https://img.shields.io/badge/License-${license}-blue.svg)](https://opensource.org/licenses/${license})
 
 ## Description
     
@@ -103,7 +102,7 @@ Please run the following command to install the necessary dependancies.
 ${usage}
 
 ## License
-This project is licenced under the ${licence}.
+This project is licensed under the ${license}.
     
 ## How to Contribute
     
