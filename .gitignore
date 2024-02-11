@@ -131,6 +131,8 @@ dist
 
 #node modules
 node_modules/
+Main/node_modules/
 
 #mac cache
 .DS_Store/
+
