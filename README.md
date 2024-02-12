@@ -14,14 +14,14 @@ During this project I learnt how to create links and dynamic iamges within the m
 
 ## Table of Contents
     
-- [User Story](#User-Story)
-- [Acceptance Criteria](#Acceptance-Criteria)
-- [Installation](#Installation)
+- [User Story](#sser-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](<#Screenshots-of-Completed-Challenge>)
+- [Screenshots](<#screenshots-of-completed-challenge>)
 - [License](#license)
 - [Credits](#credits)
-- [Questions / How to Contribute](#Questions--How-to-Contribute)
+- [Questions / How to Contribute](#questions--how-to-contribute)
 
 ## User Story
 
@@ -69,9 +69,9 @@ https://github.com/mlewis89/wk9-Nodejs-Professional_README_Generator/
 
 ## Screenshots of Completed Challenge
 
-![completed application](./Assets/screenshots/Screenshot%202024-01-17%20111203.png)
-![completed application](./Assets/screenshots/Screenshot%202024-01-17%20111317.png)
-![completed application](./Assets/screenshots/Screenshot%202024-01-17%20111414.png)
+![completed application](./Assets/screenshot.PNG)
+
+[Click here to view a video of the application in use](./assets/wk9-readme%20generator.mp4)
 
 ## License
 This project is licensed under the MIT.
