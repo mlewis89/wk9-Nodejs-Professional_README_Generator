@@ -69,7 +69,7 @@ https://github.com/mlewis89/wk9-Nodejs-Professional_README_Generator/
 
 ## Screenshots of Completed Challenge
 
-![completed application](./Assets/screenshot.PNG)
+![completed application](./assets/screenshot.PNG)
 
 [Click here to view a video of the application in use](./assets/wk9-readme%20generator.mp4)
 
