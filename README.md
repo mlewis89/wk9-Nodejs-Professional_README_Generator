@@ -10,18 +10,18 @@ The purpose of this application is to test my knowledge of Node JS, by prompting
 
 This application saves the user time in producing a readme file.
 
-During this project i learnt how to the inquirer package while also improving my knowledge of the markdown language, including how to create a table of contents and a licence badge
+During this project I learnt how to create links and dynamic iamges within the markdown language, while also improving my knowledge of the inquirer package.
 
 ## Table of Contents
     
 - [User Story](#User-Story)
-- [Acceptance Criteria](#Acceptance%201%20Criteria)
-- [Installation](#installation)
+- [Acceptance Criteria](#Acceptance-Criteria)
+- [Installation](#Installation)
 - [Usage](#usage)
-- [Screenshots](<#Screenshots%201%20of%201%20Completed%201%20Challenge>)
+- [Screenshots](<#Screenshots-of-Completed-Challenge>)
 - [License](#license)
 - [Credits](#credits)
-- [Questions / How to Contribute](#Questions-/-How-to-Contribute)
+- [Questions / How to Contribute](#Questions--How-to-Contribute)
 
 ## User Story
 
